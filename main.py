@@ -8,6 +8,7 @@ from torch.backends import cudnn
 def str2bool(v):
     return v.lower() in ('true')
 
+
 def main(config):
     # For fast training.
     cudnn.benchmark = True
